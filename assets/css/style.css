@@ -11,12 +11,12 @@ body {
 
 /* ===== Headings & Links ===== */
 h1, h2, h3, h4 {
-  color: #22c55e; /* primary green */
+  color: #016426; /* primary green */
   font-weight: 700;
 }
 
 a {
-  color: #22c55e;
+  color: #016426;
   transition: color 0.3s ease;
 }
 
@@ -35,7 +35,7 @@ section {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #16a34a;
+  background: #016426;
   border-radius: 10px;
 }
 
@@ -65,7 +65,7 @@ section {
 }
 
 #skills p {
-  color: #888a8b;
+  color: #707172;
   font-weight: 500;
   font-size: 1rem;
 }
@@ -164,7 +164,7 @@ header nav a:hover {
 #home h1 {
   font-size: 3rem;
   font-weight: 800;
-  color: #4ade80;
+  color: #016426;
   margin-bottom: 0.5rem;
 }
 
@@ -183,7 +183,7 @@ header nav a:hover {
 }
 
 #home button {
-  background-color: #22c55e;
+  background-color: #024d1d;
   color: #020617;
   font-weight: 600;
   border: 2px solid transparent;
