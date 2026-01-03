@@ -1,0 +1,226 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* ===== Global Styling ===== */
+body {
+  background-color: #020617; /* deep dark blue-black */
+  color: #e5e7eb;
+  font-family: 'Inter', sans-serif;
+}
+
+/* ===== Headings & Links ===== */
+h1, h2, h3, h4 {
+  color: #22c55e; /* primary green */
+  font-weight: 700;
+}
+
+a {
+  color: #22c55e;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #4ade80;
+}
+
+/* ===== Section Defaults ===== */
+section {
+  background-color: transparent;
+}
+
+/* ===== Scrollbar ===== */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #16a34a;
+  border-radius: 10px;
+}
+
+/* ===== Project Cards ===== */
+.project-card {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0 25px rgba(34, 197, 94, 0.35);
+}
+
+/* ===== Skills Section ===== */
+#skills {
+  padding: 5rem 0;
+}
+
+#skills h2 {
+  color: #033115;
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+#skills p {
+  color: #e5e7eb;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+/* Skill bars */
+.skill-bar {
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 30px;
+  height: 12px;
+  margin-top: 6px;
+  overflow: hidden;
+}
+
+.skill-bar div {
+  height: 12px;
+  background: linear-gradient(90deg, #16a34a, #22c55e);
+  border-radius: 30px;
+  box-shadow: 0 0 12px rgba(34, 197, 94, 0.6);
+  transition: width 1s ease-in-out;
+}
+
+/* ===== Contact Section ===== */
+#contact {
+  text-align: center;
+}
+
+#contact a {
+  color: #22c55e;
+}
+
+#contact a:hover {
+  color: #4ade80;
+  text-shadow: 0 0 8px rgba(34, 197, 94, 0.5);
+}
+
+/* ===== Footer ===== */
+footer {
+  background-color: #020617;
+  color: #9ca3af;
+  text-align: center;
+  font-size: 0.875rem;
+  padding: 1.5rem 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* ===== Header ===== */
+header {
+  background-color: #020617;
+  border-bottom: 1px solid rgba(34, 197, 94, 0.3);
+  box-shadow: 0 2px 10px rgba(34, 197, 94, 0.2);
+  transition: all 0.3s ease;
+}
+
+header.scrolled {
+  box-shadow: 0 0 20px rgba(34, 197, 94, 0.35);
+}
+
+header nav a {
+  color: #e5e7eb;
+  font-weight: 500;
+}
+
+header nav a:hover {
+  color: #22c55e;
+  text-shadow: 0 0 6px rgba(34, 197, 94, 0.4);
+}
+
+/* ===== Hero Section ===== */
+#home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+  text-align: center;
+  background-color: #020617;
+  padding: 80px 20px;
+}
+
+/* Profile Image */
+#home img {
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  border: 4px solid #16a34a;
+  box-shadow: 0 0 30px rgba(34, 197, 94, 0.45);
+  margin-bottom: 1.5rem;
+  transition: transform 0.4s ease;
+}
+
+#home img:hover {
+  transform: scale(1.05);
+}
+
+/* Name & Role */
+#home h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #4ade80;
+  margin-bottom: 0.5rem;
+}
+
+#home p {
+  font-size: 1.25rem;
+  color: #d1d5db;
+  margin-bottom: 2rem;
+}
+
+/* ===== Buttons ===== */
+#home .btn-container {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#home button {
+  background-color: #22c55e;
+  color: #020617;
+  font-weight: 600;
+  border: 2px solid transparent;
+  padding: 12px 26px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#home button:hover {
+  background-color: transparent;
+  border-color: #22c55e;
+  color: #22c55e;
+}
+
+
+/* ===== GLOBAL BACKGROUND (UNIQUE & EYE-CATCHING) ===== */
+body {
+  background:
+    radial-gradient(
+      circle at top left,
+      rgba(34, 197, 94, 0.15),
+      transparent 40%
+    ),
+    radial-gradient(
+      circle at bottom right,
+      rgba(22, 163, 74, 0.12),
+      transparent 45%
+    ),
+    linear-gradient(
+      180deg,
+      #020617 0%,
+      #020617 60%,
+      #030712 100%
+    );
+  background-attachment: fixed;
+}
+
+
+
