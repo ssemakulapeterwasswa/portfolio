@@ -129,7 +129,7 @@ header nav a {
 }
 
 header nav a:hover {
-  color: #22c55e;
+  color: #016426;
   text-shadow: 0 0 6px rgba(34, 197, 94, 0.4);
 }
 
@@ -195,8 +195,8 @@ header nav a:hover {
 
 #home button:hover {
   background-color: transparent;
-  border-color: #22c55e;
-  color: #22c55e;
+  border-color: #016426;
+  color: #016426;
 }
 
 
